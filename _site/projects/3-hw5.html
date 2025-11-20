@@ -77,8 +77,6 @@
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
   <h1 id="nail-technician-licenses-in-illinois">Nail Technician Licenses in Illinois</h1>
 
-<vegachart schema-url="/assets/json/altair_mobility.json" style="width: 100%"></vegachart>
-
 <p>In this plot, I have two linked charts: a map of Illinois with points and a bar graph.</p>
 
 <p>The map of Illinois shows the location associated with each license for licensed nail technicians.  I created a new location column by combining the city and state columns so I could geocode using geopy to get the latitude and longitude for each city. I filtered out states that were not IL and only looked at licensed nail technicians for the license description. For the latitude and longitude, I used a quantitative encoding because these are continuous values. I also colored the points by the license status to connect it to the bar graph, using the default colors. The points outside of the selection box turn black, while the points inside stay colored.</p>
@@ -86,6 +84,10 @@
 <p>The bar graph shows the license status for the licenses selected in the map. I used a nominal encoding for the license status values (they are unordered for this purpose) and a quantitative encoding for the count of each value. I used a different color for each bar (based on the license status). The same data is used for the map and the bar graph, except the data is the bar graph is further filtered by user selection.</p>
 
 <p>I connected these charts using a selection interval. The points selected in the map of Illinois are plotted in the bar graph below. This allows the user to focus on a particular section of Illinois when looking for licensed nail technicians. For example, if the user lives in Champaign, they can select points near that area.</p>
+
+<vegachart schema-url="/assets/json/illinois_nail_tech.json" style="width: 100%"></vegachart>
+
+<p>help</p>
 
 <div class="left">
 <a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/licenses_fall2022.csv">
