@@ -17,7 +17,8 @@ Main chart:
 
 Paragraph of explanation
 
-Chart 2 from same dataset and interactive:
+Chart 2 from contextual dataset:
+<vegachart schema-url="{{ site.baseurl }}/assets/json/final_project_grouped_bars.json" style="width: 100%"></vegachart>
 
 Paragraph of explanation
 
