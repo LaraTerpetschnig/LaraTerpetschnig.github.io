@@ -9,4 +9,21 @@ custom_js:
   - vega-embed.min
   - justcharts
 ---
+# Alcohol ? 
+Author: Lara Terpetschnig
+
+Main chart:
+<vegachart schema-url="{{ site.baseurl }}/assets/json/final_project_interactive_heatmap.json" style="width: 100%"></vegachart>
+
+Paragraph of explanation
+
+Chart 2 from same dataset and interactive:
+
+Paragraph of explanation
+
+Chart 3 from contextual dataset and interactive:
+
+Paragraph of explanation
+
+Citations 
 
