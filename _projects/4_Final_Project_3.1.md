@@ -28,7 +28,7 @@ I used the [hex codes for the Portugal flag](https://www.flagcolorcodes.com/port
 </div>
 <vegachart schema-url="{{ site.baseurl }}/assets/json/final_project_interactive_heatmap.json" style="width: 100%"></vegachart>
 
-This plot contains a linked heatmap and histogram. By clicking one of the cells in the heatmap, you can see the final grade distribution for students based on the combination of their weekday and weekend drinking levels, which range from 1 to 5. In Portugal, as in many European countries, students are graded on a 20 point scale. 
+This plot contains a linked heatmap and histogram. By clicking one of the cells in the heatmap, you can see the final grade distribution for students based on the combination of their weekday and weekend drinking levels, which range from 1 to 5 (1 being "very low" and 5 being "very high"). In Portugal, as in many European countries, students are graded on a 20 point scale. 
 
 The worst outcome occurs with a weekend drinking level of 2 and a weekday drinking level of 4; however, the histogram reveals that this is just one student. Similarly, the best outcome that occurs with a weekday drinking level of 3 and a weekend drinking level of 1 is also one student. 
 
@@ -53,7 +53,7 @@ This chart shows the frequency of alcohol consumption for the top five countries
 
 Compared to other countries, Portugal does not have as many students drinking "every day" and "every week". Standardized tests scores could be compared between countries to see if differences occur based on alcohol consumption. 
 
-### Citations 
+## Citations 
 Cortez, Paulo & Silva, Alice. (2008). Using data mining to predict secondary school student performance. EUROSIS. 
 
 European Commission, Eurostat, Reference Metadata in Euro SDMX Metadata Structure (ESMS), Publication Office of the European Union, https://ec.europa.eu/eurostat/cache/metadata/en/hlth_det_esms.htm#
