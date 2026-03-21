@@ -6,9 +6,9 @@
 - name: R
   percentage: 40
   level: Beginner
-  color:
+  color: 
 
-- name: Python
+- name: test
   percentage: 90
   level: Expert
   color: secondary
