@@ -1,5 +1,5 @@
 ---
-name: Final Project Part 3.1
+name: Don't Drink and Study? Alcohol Consumption and Grades for Students in Portugal 
 tools: [Python, Altair, vega-lite]
 image: assets/pngs/finalProject.png
 description: IS 445 Final Project
