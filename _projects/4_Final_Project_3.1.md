@@ -1,6 +1,6 @@
 ---
 name: Don't Drink and Study? Alcohol Consumption and Grades for Students in Portugal 
-tools: [Python, Altair, vega-lite]
+tools: [Python, Altair]
 image: assets/pngs/finalProject.png
 description: IS 445 Final Project
 custom_js:
